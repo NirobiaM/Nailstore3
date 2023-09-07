@@ -1,0 +1,13 @@
+npm i cors dotenv express mongoose jsonwebtoken cookie-parser
+
+What are all these packages for?
+    cors: giving the front/back end permission to talk to each other
+    dotenv: allow us to access environment variables (the varaibles in .env)
+    express: creating a server
+    mongoose: connecting to your mongoDB database
+    jsonwebtoken: creating JSON web tokens to store in cookies so we can keep a user logged in
+    cookie-parser: reading cookies on the user
+
+watch server;
+    node --watch server.js
+    the "--watch" flag will make it so that node will automatically restart any time you make changes
